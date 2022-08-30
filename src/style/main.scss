@@ -1,28 +1,32 @@
 @import "fonts";
+@import "reset";
+@import "variables";
 
+html {
+    font-family: 'Josefin Sans';
+}
+body {
+    background-color: gray;
+    color: green;
+}
 h1 {
-    color: red;
+    color: $maincolor;
     padding: 2rem 0;
-    font-family: quicksandregular;
+    font-family: $mainFont;
     text-align: center;
     width: 100%;
     font-size: 15vh;
 }
 p {
-    color: turquoise;
-    font-family: quicksandregular;
+    color: $secondcolor;
+    font-family: $secondFont;
     text-align: center;
     width: 100%;
     font-size: 10vh;
 }
-
-body {
-    background-color: gray;
-    color: green;
-}
 .circle {
     width: 20vh;
     height: 20vh;
-    background-color: aqua;
+    background-color: red;
     border-radius: 50%;
 }
